@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- No styling information should be entered in this file, just layouts and ids -->
+<!-- All style information is stored in /raw/styles.xml -->
+
+<LinearLayout style="@style/AppTheme.mainLinearLayoutVertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="au.csiro.cotscontrolcentre_decisionsupporttool_0_0.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/info_frame"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:visibility="visible">
+
+        <LinearLayout style="@style/AppTheme.overlayPanel"
+            android:id="@+id/reef_info_overlay">
+
+            <TextView style="@style/AppTheme.overlayTextHeading"
+                android:id="@+id/reef_info_overlay_reef_name" />
+
+            <LinearLayout style="@style/AppTheme.overlayInfoPanelInfo"
+                android:id="@+id/overlay_info_panel">
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_reef_reef_mode" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_reef_number_of_sites" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_last_cull_date" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_last_manta_date" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_number_of_days_since_last_manta" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_manta_due" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_reef_total_cots_culled_during_last_cull" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_reef_total_cots_seen_during_last_manta" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_reef_any_manta_scars_seen_during_last_manta" />
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_reef_number_of_sites_with_manta_cots_or_scars" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/AppTheme.overlayInfoPanelWorkplan"
+                android:id="@+id/overlay_workplan_panel">
+
+                <TextView style="@style/AppTheme.overlayTextBodyHeading"
+                    android:id="@+id/reef_info_overlay_workplan_heading"
+                    android:text="Recommended Workplan \n"/>
+
+                <TextView style="@style/AppTheme.overlayTextBody"
+                    android:id="@+id/reef_info_overlay_workplan" />
+
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/AppTheme.actionButtonPanel"
+                android:id="@+id/action_button_panel">
+
+                <Button style="@style/AppTheme.actionButton"
+                    android:id="@+id/loadSurveillanceFileButton"
+                    android:text="Load new data ..." />
+
+                <Button style="@style/AppTheme.actionButton"
+                    android:id="@+id/generateWorkplanButton"
+                    android:text="Generate Workplan" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

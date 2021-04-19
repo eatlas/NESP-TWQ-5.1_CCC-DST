@@ -1,0 +1,116 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Set up default colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="@android:windowBackground">@drawable/default_background</item>-->
+    </style>
+
+    <!-- Set up splash screen -->
+    <style name="AppTheme.splashScreen">
+        <!--<item name="@android:windowBackground">@drawable/splash_screen</item>-->
+    </style>
+
+    <style name="AppTheme.mainLinearLayoutVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:animateLayoutChanges">true</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.overlayPanel">
+        <item name="android:layout_width">400px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">25px</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.overlayInfoPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style>
+
+    <style name="AppTheme.overlayInfoPanelInfo" parent="AppTheme.overlayInfoPanel">
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="AppTheme.overlayInfoPanelWorkplan" parent="AppTheme.overlayInfoPanel">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="AppTheme.overlayText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="AppTheme.overlayTextHeading" parent="AppTheme.overlayText">
+        <item name="android:textSize">30px</item>
+        <item name="android:layout_margin">20px</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.overlayTextBodyHeading" parent="AppTheme.overlayText">
+        <item name="android:textSize">26px</item>
+        <item name="android:layout_marginLeft">20px</item>
+        <item name="android:layout_marginRight">20px</item>
+        <item name="android:layout_marginTop">5px</item>
+        <item name="android:layout_marginBottom">5px</item>
+    </style>
+
+    <style name="AppTheme.overlayTextBody" parent="AppTheme.overlayText">
+        <item name="android:textSize">20px</item>
+        <item name="android:layout_marginLeft">20px</item>
+        <item name="android:layout_marginRight">20px</item>
+        <item name="android:layout_marginTop">5px</item>
+        <item name="android:layout_marginBottom">5px</item>
+    </style>
+
+    <style name="AppTheme.displayButtonRow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">75px</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginTop">25px</item>
+        <item name="android:layout_marginRight">25px</item>
+    </style>
+
+    <style name="AppTheme.displayButton">
+        <item name="android:layout_width">200px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">25px</item>
+    </style>
+
+    <style name="AppTheme.actionButtonPanel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">bottom</item>
+    </style>
+
+    <style name="AppTheme.actionButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">25px</item>
+    </style>
+</resources>

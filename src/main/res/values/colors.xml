@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- CSIRO Core Colour Midday Blue R0 G169 B206 -->
+    <color name="colorPrimary">#00a9ce</color>
+    <!-- CSIRO Core Colour Sky Blue R65 G182 B230 -->
+    <color name="colorPrimaryLight">#41b6e6</color>
+    <!-- CSIRO Core Colour Midnight Blue R0 G49 B60 -->
+    <color name="colorPrimaryDark">#00313c</color>
+    <!-- CSIRO Core Colour Sky Blue R65 G182 B230 with ~10% opacity -->
+    <color name="colorPrimaryVeryVeryVeryLight">#1a41b6e6</color>
+    <!-- CSIRO Core Colour Sky Blue R65 G182 B230 with ~20% opacity -->
+    <color name="colorPrimaryVeryVeryLight">#3341b6e6</color>
+    <!-- CSIRO Core Colour Sky Blue R65 G182 B230 with ~30% opacity -->
+    <color name="colorPrimaryVeryLight">#4C41b6e6</color>
+    <!-- CSIRO Accent Colour Orange -->
+    <color name="colorAccent">#e87722</color>
+    <!-- Generic Colours -->
+    <color name="colorWhite">@android:color/white</color>
+    <color name="colorBlack">@android:color/black</color>
+    <color name="colorGray">@android:color/darker_gray</color>
+    <color name="colorGrayTransparent">#aaaaaaaa</color>
+</resources>

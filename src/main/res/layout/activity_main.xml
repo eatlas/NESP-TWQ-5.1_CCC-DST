@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- No styling information should be entered in this file, just layouts and ids -->
+<!-- All style information is stored in /raw/styles.xml -->
+
+<LinearLayout style="@style/AppTheme.mainLinearLayoutVertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="au.csiro.cotscontrolcentre_decisionsupporttool_0_0.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/display_info_fragment_container_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/display_map_fragment_container_view"
+        android:layout_width="0dp"
+        android:layout_weight="0.75"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</LinearLayout>

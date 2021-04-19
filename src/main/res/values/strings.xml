@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources [
+    <!ENTITY major_version "0">
+    <!ENTITY minor_version "0">
+    ]>
+
+<resources>
+    <!-- Application title and version numbers -->
+    <string name="app_name">COTS Control Centre - Decision Support Tool Version &major_version;.&minor_version;</string>
+    <string name="app_major_version_number">&major_version;</string>
+    <string name="app_minor_version_number">&minor_version;</string>
+
+    <!-- Content authority -->
+    <string name="content_authority">au.csiro.cotscontrolcentre_decisionsupporttool_&major_version;_&minor_version;</string>
+
+</resources>

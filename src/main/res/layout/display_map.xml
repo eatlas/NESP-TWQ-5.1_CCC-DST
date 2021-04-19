@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- No styling information should be entered in this file, just layouts and ids -->
+<!-- All style information is stored in /raw/styles.xml -->
+
+<LinearLayout style="@style/AppTheme.mainLinearLayoutVertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="au.csiro.cotscontrolcentre_decisionsupporttool_0_0.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/map_frame"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:visibility="visible">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map_main"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:focusable="true"/>
+
+        <LinearLayout style="@style/AppTheme.displayButtonRow">
+
+            <Button style="@style/AppTheme.displayButton"
+                android:id="@+id/mantaButton"
+                android:text="Manta tows" />
+
+            <Button style="@style/AppTheme.displayButton"
+                android:id="@+id/cullButton"
+                android:text="Cull density" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/loadingPanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="true" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

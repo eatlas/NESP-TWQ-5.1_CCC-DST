@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/site_marker_info"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/circle"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/site_marker_info_text"
+        android:textSize="35px"
+        android:textColor="@color/colorWhite"
+        android:text="1"
+        android:textAlignment="center"
+        android:layout_width="50px"
+        android:layout_height="50px"/>
+
+</LinearLayout>
