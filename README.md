@@ -23,5 +23,8 @@ sharing data between tablets when internet connectivity is not available.
 
 This repository contains the source code for the CCC-DST Android application.
 
+>***Note:*** The database file has been omitted from the source files. The [technical report](https://bit.ly/319lvEy)
+> (section 2.2) details the layout of the database file.
+
 For a detailed description of the application see the [technical report](https://bit.ly/319lvEy) on the 
 [NESP TWQ Project page](https://nesptropical.edu.au/index.php/round-5-projects/project-5-1/).
